@@ -1,5 +1,5 @@
-<?php
-    $connect = mysql_connect('localhost', 'root', '��й�ȣ');
+﻿<?php
+    $connect = mysql_connect('localhost', 'root', '비밀번호');
     if(!$connect){
         echo "connect fail! ".mysqli_connect_error();
     }else{
